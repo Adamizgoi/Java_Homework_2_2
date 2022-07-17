@@ -7,16 +7,19 @@ public class Main {
 
         boolean addMoney = replenish >= 1000; //пополнение должно быть больше или равно 1000
 
-        if(addMoney) {
+        if (addMoney) {
             int bonusAmount = replenish / needMoney;
             int finalBalance = bonusAmount + balance + replenish;
 
-            System.out.println("Ваш баланс:"); System.out.println(finalBalance);
+            System.out.println("Ваш баланс:");
+            System.out.println(finalBalance);
 
             System.out.println("Спасибо за участие в программе «Мой Булайн»");
         } else {
-            int final_balance = balance + replenish;
+            int finalBalance = balance + replenish;
 
-            System.out.println("Ваш баланс:"); System.out.println(final_balance);}
+            System.out.println("Ваш баланс:");
+            System.out.println(finalBalance);
+        }
     }
 }
